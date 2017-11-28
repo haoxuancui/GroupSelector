@@ -29,7 +29,7 @@ public class GroupSelector
 
 	private static void sortGroupsAlphabetically()
 		{
-		
+		//dimitris sort out names by last name in alphabetical order 
 		}
 
 	private static void printGroups()
