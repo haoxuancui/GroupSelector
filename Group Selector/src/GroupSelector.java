@@ -25,7 +25,13 @@ public class GroupSelector
 
 	private static void sortGroupsAlphabetically()
 		{
-		// TODO Auto-generated method stub
+		for(int i = 0; i < groups.size(); i++)
+			{
+				groups.get(i).getLastName()
+				
+				
+				Collections.sort(groups.get(i));
+			}
 		
 		}
 
