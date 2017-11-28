@@ -13,14 +13,18 @@ public class GroupSelector
 
 	private static void makeRoster()
 		{
-		// TODO Auto-generated method stub
 		
 		}
 
 	private static void makeGroups()
 		{
-		// TODO Auto-generated method stub
-		
+		Scanner userInput = new Scanner(System.in);
+		System.out.println("Hello how many groups would you like?");
+		int name = userInput.nextInt();
+		for(int i = 1; i <= name; i++)
+			{
+				System.out.println(i);
+			}
 		}
 
 	private static void sortGroupsAlphabetically()
@@ -32,7 +36,6 @@ public class GroupSelector
 				
 				Collections.sort(groups.get(i));
 			}
-		
 		}
 
 	private static void printGroups()
